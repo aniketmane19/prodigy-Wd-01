@@ -1,0 +1,199 @@
+*{
+	font-family:monteserrat,Verdana, Arial, Tahoma, Serif ;
+}
+.body{
+color:#9a5dcf;
+scroll-behavior: smooth;
+
+}
+.section-padding{
+	padding: 50px 0;
+
+	
+
+}
+.container{
+	box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.15);
+
+}
+.carousel-item{
+	height: 100vh;
+	min-height: 300px;
+
+}
+.carousel-caption{
+	bottom: 220px;
+	z-index: 2;
+	font-size:35px;
+
+}
+.carousel-caption:hover{
+	bottom: 220px;
+	z-index: 2;
+	font-size:25px;
+	 transition: transform 2s;
+	 -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+
+}
+..carousel-caption h2{
+	text-transform: uppercase;
+	letter-spacing: 2;
+	margin-top: 25px;
+	
+}
+..carousel-caption p{
+	width: 60%;
+	margin: auto;
+	font-size: 15px;
+	line-height: 1.9;
+}
+.card{
+	margin-bottom: 30px;
+	box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.15);
+	transition: 4s;
+
+}	
+
+
+.img-area img{
+	width: 100%;
+}
+.about-text{
+	padding-top:65px;
+	margin-bottom:10px;	
+}
+.navbar-nav a{
+	font-size: 15px;
+	text-transform:uppercase ;
+	font-weight:500 ;
+	
+	}
+
+	
+.navbar-Light .navbar-brand{
+font-size: 25px;
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: 2px;
+color: #000;
+}
+
+.navbar-Light .navbar-brand:focus, 
+.navbar-Light .navbar-brand:hover{
+ color: #000;
+
+}
+ .navbar-Light .navbar-nav .navbar-link{ 
+ 	color:#000;
+}
+
+.w-100{
+height: 100vh;
+}
+.services .card-body i{
+font-size: 70px;
+}
+.team .card-body i{
+	font-size: 35px;
+	border-radius: 100%;
+	box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.15);
+
+}
+
+.portfolio .card-body i:before{
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
+	font-size: 20px;
+	transition: transform 2s;
+	
+}
+.portfolio .card-body :hover{
+	
+	font-size: 25px;
+	 transition: transform 2s;
+	 -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+	
+}
+
+
+
+}
+.team .card-body i{
+
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+	font-size: 25px;
+}
+	
+	
+
+
+
+/*=== responsive css ===*/
+@media only screen and (min-width: 768px) and (max-width: 991px)   {
+ .carousel-caption{
+  bottom: 370px;
+}
+.img,d-block,w-100{
+
+	width: 51vh;
+}  
+
+}
+
+
+@media only screen and (max-width: 767px){
+	.carousel-inner img{
+		width: 51vh;
+		height: 51vh;
+	}
+
+	.navbar-nav{
+	 text-align: center;
+
+}
+.carousel-item {
+  height: 51vh;
+min-height: 300px;
+}
+.carousel-inner img{
+	width: 51vh;
+
+}
+ .carousel-caption{
+  bottom:100px;
+
+
+
+}
+.carousel-caption:hover{
+  bottom:100px;
+  font-size: 25px;
+	 transition: transform 2s;
+	 -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+
+ .carousel-caption h5{
+ font-size: 17px;
+}
+.carousel-caption a{
+  padding: 10px 15px;
+
+}
+.carousel-control-next, .carousel-control-prev {
+	top: 10;
+	bottom: 10;
+}
+ .carousel-caption p{
+width:100% ;
+line-height:1.6 ;
+font-size: 12px;
+}
+
+
+}
